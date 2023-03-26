@@ -20,10 +20,14 @@
 
 3. Download data
    ```
-   npm run dl <metadataPath> <outDir>
+   npm run dl <metadataPath> <outDir> pdf midi
    ```
-   eg. Downloading the resource from the song list of Mozart previous fetched
+   eg. Downloading only the PDF resources from the song list of Mozart previous fetched
    ```
-   npm run dl ./out/Mozart.json ./out/Mozart/
+   npm run dl ./out/Mozart.json ./out/Mozart/ pdf
+   ```
+   eg. Downloading both PDF and MIDI resources
+   ```
+   npm run dl ./out/Mozart.json ./out/Mozart/ pdf midi
    ```  
 
