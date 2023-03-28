@@ -31,3 +31,11 @@
    npm run dl ./out/Mozart.json ./out/Mozart/ pdf midi
    ```  
 
+4. [Bonus] Merge pdf files under the same directory (grouped by opus)
+   ```
+   npm run merge-pdf <inDir> <outDir>
+   ```
+   eg.
+   ```
+   npm run merge-pdf ./out/Handel-pdf ./out/Handel-pdf-merged
+   ```
